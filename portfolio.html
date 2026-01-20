@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h2 class="logo">MyPortfolio</h2>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="themeToggle">🌙</button>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <img src="profilepicture.png" alt="Profile Photo" />
+  <h1>Hello, I'm <span>Sarthak Choramale</span></h1>
+  <p>Aspiring Web Developer | Student</p>
+</section>
+
+<section id="about" class="section fade-in">
+  <h2>About Me</h2>
+  <p>
+    I am a student passionate about web development and design.
+    I enjoy building responsive and interactive websites.
+  </p>
+
+  <h3>Education</h3>
+  <p>B.Tech in Computer Science - Walchand College of Engineering, Sangli</p>
+
+  <h3>Skills</h3>
+  <div class="skills">
+    <div class="skill">
+      <span>HTML</span>
+      <div class="bar"><div class="progress" data-level="90"></div></div>
+    </div>
+    <div class="skill">
+      <span>CSS</span>
+      <div class="bar"><div class="progress" data-level="80"></div></div>
+    </div>
+    <div class="skill">
+      <span>JavaScript</span>
+      <div class="bar"><div class="progress" data-level="70"></div></div>
+    </div>
+    <div class="skill">
+      <span>C</span>
+      <div class="bar"><div class="progress" data-level="70"></div></div>
+    </div>
+    <div class="skill">
+      <span>C++</span>
+      <div class="bar"><div class="progress" data-level="60"></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section fade-in">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Personal responsive website.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JS</p>
+      <a href="https://sarthakchoramale09-ship-it.github.io/Portfolio/">GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Ev charging station  website</h3>
+      <p>Station locator using HTML.</p>
+      <p><strong>Tech:</strong> JS , HTML</p>
+      <a href="#">GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>online delivery website</h3>
+      <p>online food delivery website .</p>
+      <p><strong>Tech:</strong> HTML, JS</p>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section fade-in">
+  <h2>Contact Me</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" />
+    <input type="email" id="email" placeholder="Your Email" />
+    <input type="text" id="subject" placeholder="Subject" />
+    <textarea id="message" placeholder="Message"></textarea>
+    <button type="submit">Send Message</button>
+    <p id="formMsg"></p>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Sarthak Choramale</p>
+  <div class="socials">
+    <a href="https://www.linkedin.com/in/sarthak-choramale-ab0349335/">LinkedIn</a>
+  </div>
+</footer>
+
+<script src="portfolio.js"></script>
+</body>
+</html>
